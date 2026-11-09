@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0284c7">
+
+<title>Rydia Mobility and Loans Ltd</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #172033;
+    background: linear-gradient(160deg, #020617, #075985, #38bdf8);
+    min-height: 100vh;
+}
+
+header {
+    background: rgba(255,255,255,.96);
+    padding: 18px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #075985;
+}
+
+nav a {
+    text-decoration: none;
+    color: #172033;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0284c7;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 16px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #020617, #0369a1);
+    color: white;
+    padding: 55px 25px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 750px;
+    margin: auto;
+}
+
+.motto {
+    color: #facc15;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 22px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+.btn:hover {
+    background: #0369a1;
+}
+
+.white-card {
+    background: rgba(255,255,255,.96);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 22px;
+    box-shadow: 0 8px 25px #0002;
+}
+
+h2 {
+    color: #075985;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feature {
+    background: #e0f2fe;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.feature h3 {
+    color: #075985;
+    margin-bottom: 10px;
+}
+
+.updates {
+    background: #eff6ff;
+    border-left: 5px solid #0284c7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.update-title {
+    font-weight: bold;
+    color: #075985;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 7px 0 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+section {
+    scroll-margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    color: white;
+    line-height: 1.8;
+}
+
+.hidden {
+    display: none;
+}
+
+.notice {
+    background: #fff7ed;
+    padding: 12px;
+    border-radius: 8px;
+    color: #9a3412;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+@media(max-width:600px) {
+    .hero h1 {
+        font-size: 27px;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">RYDIA MOBILITY</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#how">How It Works</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+        <a href="#account">Account</a>
+    </nav>
+</header>
+
+<main class="container">
+
+<!-- HOME PAGE -->
+
+<section id="home" class="hero">
+
+    <h1>Welcome to Rydia Mobility and Loans Ltd</h1>
+
+    <p>
+        Your journey to easier mobility starts here.
+        Rydia Mobility helps people access bikes and pay
+        gradually through an agreed instalment arrangement.
+        You do not have to pay the entire bike cost at once.
+    </p>
+
+    <div class="motto">
+        "The Kidney to Marketers"
+    </div>
+
+    <a href="#account" class="btn">Create an Account</a>
+    <a href="#how" class="btn">Learn More</a>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="white-card">
+
+    <h2>About Rydia Mobility</h2>
+
+    <p>
+        Rydia Mobility and Loans Ltd is a company focused on
+        making bike access easier for people.
+
+        We provide an opportunity for interested customers
+        to get bikes and pay for them in instalments over
+        an agreed period.
+
+        Our goal is to support mobility and help people
+        access practical transportation without necessarily
+        paying the full cost upfront.
+    </p>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>Access a Bike</h3>
+            <p>
+                Ask about the bikes currently available
+                through Rydia Mobility.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Pay in Instalments</h3>
+            <p>
+                Spread the agreed bike cost across
+                an agreed payment period.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>Plan Your Payments</h3>
+            <p>
+                Understand your deposit, payment dates
+                and total cost before agreeing.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- HOW IT WORKS -->
+
+<section id="how" class="white-card">
+
+    <h2>How Rydia Mobility Works</h2>
+
+    <p><strong>Step 1:</strong> Contact Rydia Mobility and ask about available bikes.</p>
+
+    <p><strong>Step 2:</strong> Confirm the bike price and required deposit.</p>
+
+    <p><strong>Step 3:</strong> Discuss your instalment amount and repayment period.</p>
+
+    <p><strong>Step 4:</strong> Review and accept the written agreement.</p>
+
+    <p><strong>Step 5:</strong> Complete the application process.</p>
+
+    <div class="notice">
+        Actual bike availability, prices, deposits, repayment
+        terms and eligibility are confirmed by Rydia Mobility.
+    </div>
+
+</section>
+
+<!-- NEWS AND UPDATES -->
+
+<section id="updates" class="white-card">
+
+    <h2>Latest Rydia Updates</h2>
+
+    <p>
+        Keep checking this section for announcements,
+        new bike availability and company information.
+    </p>
+
+    <div class="updates">
+
+        <div class="update-title" id="updateTitle">
+            Welcome to Rydia Mobility
+        </div>
+
+        <p id="updateMessage">
+            Discover our bike instalment arrangement.
+            Contact our team for current information.
+        </p>
+
+        <p style="margin-top:12px;color:#64748b;font-size:13px"
+           id="updateNumber">
+            Update 1
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ACCOUNT -->
+
+<section id="account" class="white-card">
+
+    <h2>Customer Account</h2>
+
+    <div id="accountOptions">
+
+        <p>Create an account or log in to access the customer area.</p>
+
+        <button class="btn" onclick="showSignup()">
+            Create Account
+        </button>
+
+        <button class="btn" onclick="showLogin()">
+            Login
+        </button>
+
+    </div>
+
+    <div id="signupForm" class="hidden">
+
+        <h3>Create Your Account</h3>
+
+        <label>Full Name</label>
+        <input id="newName" type="text" placeholder="Enter your name">
+
+        <label>Email Address</label>
+        <input id="newEmail" type="email" placeholder="Enter your email">
+
+        <label>Password</label>
+        <input id="newPassword" type="password" placeholder="Create a password">
+
+        <button class="btn" onclick="registerUser()">
+            Register
+        </button>
+
+        <button class="btn" onclick="showLogin()">
+            Already Registered? Login
+        </button>
+
+        <p id="signupMessage"></p>
+
+    </div>
+
+    <div id="loginForm" class="hidden">
+
+        <h3>Customer Login</h3>
+
+        <label>Email Address</label>
+        <input id="loginEmail" type="email">
+
+        <label>Password</label>
+        <input id="loginPassword" type="password">
+
+        <button class="btn" onclick="loginUser()">
+            Login
+        </button>
+
+        <button class="btn" onclick="showSignup()">
+            Create Account
+        </button>
+
+        <p id="loginMessage"></p>
+
+    </div>
+
+    <div id="customerArea" class="hidden">
+
+        <h3 id="welcomeCustomer"></h3>
+
+        <p>Welcome to your Rydia Mobility customer area.</p>
+
+        <a href="#calculator" class="btn">Loan Calculator</a>
+        <a href="#application" class="btn">Apply Now</a>
+
+        <button class="btn" onclick="logoutUser()">Logout</button>
+
+    </div>
+
+    <div class="notice">
+        This is a demonstration account system. It stores
+        account information in this browser only. Use a secure
+        server and database before collecting real customer data.
+    </div>
+
+</section>
+
+<!-- CALCULATOR -->
+
+<section id="calculator" class="white-card">
+
+    <h2>Instalment Calculator</h2>
+
+    <label>Bike / Loan Amount (₦)</label>
+    <input type="number" id="amount" value="500000">
+
+    <label>Annual Interest Rate (%)</label>
+    <input type="number" id="rate" value="24">
+
+    <label>Payment Period</label>
+    <select id="months">
+        <option value="3">3 Months</option>
+        <option value="6">6 Months</option>
+        <option value="12">12 Months</option>
+    </select>
+
+    <button class="btn" onclick="calculatePayment()">
+        Calculate
+    </button>
+
+    <h3 id="calculationResult"></h3>
+
+    <p class="notice">
+        This is only an estimate. Confirm the actual payment
+        terms with Rydia Mobility before making a commitment.
+    </p>
+
+</section>
+
+<!-- APPLICATION -->
+
+<section id="application" class="white-card">
+
+    <h2>Bike / Loan Application</h2>
+
+    <form id="applicationForm">
+
+        <label>Full Name</label>
+        <input type="text" id="appName" required>
+
+        <label>Phone Number</label>
+        <input type="tel" id="appPhone" required>
+
+        <label>Email Address</label>
+        <input type="email" id="appEmail">
+
+        <label>Bike or Loan Amount (₦)</label>
+        <input type="number" id="appAmount" required>
+
+        <label>Preferred Payment Period</label>
+        <select id="appPeriod">
+            <option>3 Months</option>
+            <option>6 Months</option>
+            <option>12 Months</option>
+        </select>
+
+        <label>Additional Information</label>
+        <textarea id="appDetails" rows="4"></textarea>
+
+        <button class="btn" type="submit">
+            Send Application
+        </button>
+
+    </form>
+
+    <p id="applicationMessage"></p>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="white-card">
+
+    <h2>Contact Rydia Mobility</h2>
+
+    <p>
+        Have questions about getting a bike through instalments?
+        Contact our team.
+    </p>
+
+    <p><strong>Phone / WhatsApp:</strong>
+        <a href="https://wa.me/2348144725052">
+            08144725052
+        </a>
+    </p>
+
+    <p><strong>Email:</strong>
+        <a href="mailto:rydiamobilityloan@gmail.com">
+            rydiamobilityloan@gmail.com
+        </a>
+    </p>
+
+    <p><strong>Address:</strong>
+        19 Alhaja Shifau Street, Dopemu Road, Lagos State.
+    </p>
+
+</section>
+
+</main>
+
+<footer>
+
+    <h3>RYDIA MOBILITY AND LOANS LTD</h3>
+
+    <p>"The Kidney to Marketers"</p>
+
+    <p>Making bike access easier through instalment payments.</p>
+
+    <p>© 2026 Rydia Mobility and Loans Ltd. All rights reserved.</p>
+
+</footer>
+
+<script>
+
+// AUTOMATIC HOME PAGE UPDATES
+
+const updates = [
+    {
+        title: "Welcome to Rydia Mobility",
+        message: "We help people access bikes and pay through an agreed instalment arrangement."
+    },
+    {
+        title: "Bike Availability",
+        message: "Contact our team to find out which bikes are currently available."
+    },
+    {
+        title: "Instalment Payments",
+        message: "Ask about available payment periods, deposits and repayment amounts."
+    },
+    {
+        title: "Stay Connected",
+        message: "Follow Rydia Mobility for company announcements and new offers."
+    }
+];
+
+let updateIndex = 0;
+
+function changeUpdate() {
+
+    document.getElementById("updateTitle").textContent =
+        updates[updateIndex].title;
+
+    document.getElementById("updateMessage").textContent =
+        updates[updateIndex].message;
+
+    document.getElementById("updateNumber").textContent =
+        "Update " + (updateIndex + 1) + " of " + updates.length;
+
+    updateIndex = (updateIndex + 1) % updates.length;
+}
+
+changeUpdate();
+setInterval(changeUpdate, 6000);
+
+
+// ACCOUNT SYSTEM - DEMO ONLY
+
+function showSignup() {
+    document.getElementById("accountOptions").classList.add("hidden");
+    document.getElementById("loginForm").classList.add("hidden");
+    document.getElementById("signupForm").classList.remove("hidden");
+}
+
+function showLogin() {
+    document.getElementById("accountOptions").classList.add("hidden");
+    document.getElementById("signupForm").classList.add("hidden");
+    document.getElementById("loginForm").classList.remove("hidden");
+}
+
+function registerUser() {
+
+    const name = document.getElementById("newName").value.trim();
+    const email = document.getElementById("newEmail").value.trim().toLowerCase();
+    const password = document.getElementById("newPassword").value;
+
+    if (!name || !email || password.length < 8) {
+        document.getElementById("signupMessage").textContent =
+            "Enter your name, a valid email and a password of at least 8 characters.";
+        return;
+    }
+
+    const users = JSON.parse(localStorage.getItem("rydiaUsers") || "[]");
+
+    if (users.some(user => user.email === email)) {
+        document.getElementById("signupMessage").textContent =
+            "This email is already registered.";
+        return;
+    }
+
+    users.push({ name, email, password });
+
+    localStorage.setItem("rydiaUsers", JSON.stringify(users));
+
+    document.getElementById("signupMessage").textContent =
+        "Account created. You can now log in.";
+
+    showLogin();
+}
+
+function loginUser() {
+
+    const email = document.getElementById("loginEmail").value.trim().toLowerCase();
+    const password = document.getElementById("loginPassword").value;
+
+    const users = JSON.parse(localStorage.getItem("rydiaUsers") || "[]");
+
+    const user = users.find(u =>
+        u.email === email && u.password === password
+    );
+
+    if (!user) {
+        document.getElementById("loginMessage").textContent =
+            "Incorrect email or password.";
+        return;
+    }
+
+    document.getElementById("loginForm").classList.add("hidden");
+    document.getElementById("customerArea").classList.remove("hidden");
+
+    document.getElementById("welcomeCustomer").textContent =
+        "Welcome, " + user.name;
+}
+
+function logoutUser() {
+    document.getElementById("customerArea").classList.add("hidden");
+    document.getElementById("accountOptions").classList.remove("hidden");
+}
+
+
+// INSTALMENT CALCULATOR
+
+function calculatePayment() {
+
+    const amount = Number(document.getElementById("amount").value);
+    const annualRate = Number(document.getElementById("rate").value) / 100;
+    const months = Number(document.getElementById("months").value);
+
+    if (amount <= 0 || annualRate < 0) {
+        document.getElementById("calculationResult").textContent =
+            "Enter a valid amount and interest rate.";
+        return;
+    }
+
+    const monthlyRate = annualRate / 12;
+
+    const monthlyPayment = monthlyRate === 0
+        ? amount / months
+        : amount * monthlyRate /
+          (1 - Math.pow(1 + monthlyRate, -months));
+
+    document.getElementById("calculationResult").textContent =
+        "Estimated monthly payment: ₦" +
+        monthlyPayment.toLocaleString("en-NG", {
+            maximumFractionDigits: 2
+        });
+}
+
+
+// APPLICATION EMAIL
+
+document.getElementById("applicationForm").addEventListener("submit", function(e) {
+
+    e.preventDefault();
+
+    const name = document.getElementById("appName").value;
+    const phone = document.getElementById("appPhone").value;
+    const email = document.getElementById("appEmail").value;
+    const amount = document.getElementById("appAmount").value;
+    const period = document.getElementById("appPeriod").value;
+    const details = document.getElementById("appDetails").value;
+
+    const subject = encodeURIComponent("Rydia Mobility Application");
+
+    const body = encodeURIComponent(
+        "Full Name: " + name +
+        "\nPhone: " + phone +
+        "\nEmail: " + email +
+        "\nAmount: ₦" + amount +
+        "\nPayment Period: " + period +
+        "\nAdditional Information: " + details
+    );
+
+    document.getElementById("applicationMessage").textContent =
+        "Your email application is being prepared. Please send it from your email app.";
+
+    window.location.href =
+        "mailto:rydiamobilityloan@gmail.com?subject=" +
+        subject + "&body=" + body;
+
+});
+
+</script>
+
+</body>
+          </html>
